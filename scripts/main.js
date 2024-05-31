@@ -8,7 +8,7 @@ myImage.onclick = function () {
   }
 };
 
-let myButton = document.querySelector("button");
+let myButton = document.getElementsByClassName("qhyh");
 let myHeading = document.querySelector("h1");
 
 function setUserName() {
@@ -28,6 +28,11 @@ if (!localStorage.getItem("name")) {
   myHeading.textContent = "Mozilla 酷毙了，" + storedName;
 }
 
+myButton.onclick = function () {
+  setUserName();
+};
+
+var html1 = document.getElementsByClassName("html1");
 myButton.onclick = function () {
   setUserName();
 };
