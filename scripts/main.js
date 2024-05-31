@@ -32,11 +32,6 @@ myButton.onclick = function () {
   setUserName();
 };
 
-var html1 = document.getElementsByClassName("html1");
-myButton.onclick = function () {
-  setUserName();
-};
-
 // myImage.onclick = function () {
 //   let mySrc = myImage.getAttribute("src");
 //   while (true) {
